@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tamanhos de imagens diferentes proporcional ao tamanho da pagina.</p>
+
+    <picture>
+        <source media="(min-width: 1050px)" srcset="Imagens/Imagem_G.png" type="image/png">
+        <source media="(min-width: 750px)" srcset="Imagens/Imagem_M.png" type="image/png">
+        <img src="Imagens/Imagem_P.png" alt="Imagem Pequena">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/God Rest Ye Merry Gentlmen - DJ Williams.mp3" type="audio/mpeg">
+        <source src="midia/God Rest Ye Merry Gentlmen - DJ Williams.ogg" type="audio/ogg">
+        <source src="midia/God Rest Ye Merry Gentlmen - DJ Williams.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não esta conseguindo reproduzir o seu audio.
+        <a href="midia/God Rest Ye Merry Gentlmen - DJ Williams.mp3"> Clica Aqui para baixar em mp3</a></p>
+    </audio>
+</body>
+</html>

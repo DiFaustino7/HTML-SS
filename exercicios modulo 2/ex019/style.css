@@ -1,0 +1,34 @@
+@charset "UTF-08";
+/* Em html ID = css é #.
+   Em hmtl é Class= em css é . */
+
+body {
+  background-color: rgba(0, 255, 255, 0.502);
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: blueviolet;
+}
+h1#principal {
+  text-align: center;
+  text-decoration: underline blue;
+  background-color: rgba(1, 98, 91, 0.394);
+  color: rgb(10, 8, 8);
+}
+h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+  text-indent: 20px;
+}
+.basico {
+  text-decoration: underline black;
+  color: blue;
+  background-color: aquamarine;
+}
+.intermediario {
+  text-decoration: underline black;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}

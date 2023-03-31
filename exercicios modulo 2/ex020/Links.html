@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links externos</title>
+    <style>
+      /* SELETORES PERSONALIZADOS
+      #   = id
+      .   = class
+      :   = pseudo-classes
+      ::  = pseudo-element
+      >   = children
+      */
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      h1 {
+        text-align: center;
+      }
+    a{
+      color: red (0, 0, 120);
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:visited{
+      color: darkred (21, 255, 0);
+      }
+      a:hover{
+        color: #000;
+        text-decoration: underline;
+      }
+      a:active{
+        color: rgb(0, 255, 21);
+      }
+      .especial::before{
+        content: "a seguir >  ";
+      color: rgb(128, 254, 254);
+      }
+      .especial::after{
+        content: " [link]";
+      }
+      .especial{
+        background-color: rgba(0, 0, 255, 0.471);
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Personalizando links</h1>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/diego.francisco.7965" target="_blank"
+        class="especial">Facebook</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.youtube.com/channel/UC5sIshey6hZb2T_rFd9l_7g"
+          target="_blank"
+          >You tube</a
+        >
+      </li>
+      <li>
+        <a href="https://www.instagram.com/difaustino7/" target="_blank"
+          class="especial">Instagram</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
